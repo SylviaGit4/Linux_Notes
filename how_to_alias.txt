@@ -1,0 +1,8 @@
+# HOW TO MAKE A BASH SCRIPT CALLABLE WITH AN ALIAS - DUMBED DOWN FOR ME.
+
+1- Make bash script (Duh)
+2- Copy bash script to binaries directory ('sudo cp /usr/local/bin script.sh')
+3- Make bash script executable ('sudo chmod +x script.sh' (Need to 'cd /usr/local/bin')
+4- Add alias to .bashrc ('nano ~/.bashrc' and append 'alias ALIAS="script.sh"')
+5- Reload .bashrc to apply changes ('source ~/.bashrc')
+6- Test aliasl ('ALIAS')
